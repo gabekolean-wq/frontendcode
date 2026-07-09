@@ -1,6 +1,7 @@
 import Aquarium from "./components/Aquarium";
 import BubbleTrail from "./components/BubbleTrail";
 import PanicButton from "./components/PanicButton";
+import GravityToggle from "./components/GravityToggle";
 
 const links = [
   { label: "About", href: "#about" },
@@ -92,6 +93,7 @@ export default function Home() {
       <Aquarium />
       <BubbleTrail />
       <PanicButton />
+      <GravityToggle />
 
       <footer className="border-t border-zinc-300 bg-[#f7f7f4]/80">
         <div className="mx-auto max-w-4xl px-6 py-6 text-sm text-zinc-500 sm:px-8 lg:px-0">

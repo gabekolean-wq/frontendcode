@@ -817,3 +817,38 @@ body {
     animation: none !important;
   }
 }
+
+/* ==========================================================================
+   Gravity toggle
+   ========================================================================== */
+.gravity-btn {
+  position: fixed;
+  bottom: 1.25rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 50;
+  padding: 0.85rem 1.4rem;
+  font-size: 1rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #fff;
+  cursor: pointer;
+  background: linear-gradient(180deg, #7c5cff 0%, #5a2ee0 100%);
+  border: 3px solid #efeaff;
+  border-radius: 1rem;
+  box-shadow: 0 8px 0 #3d1aa0, 0 14px 26px rgba(80, 40, 200, 0.4);
+  transition: transform 0.08s ease, box-shadow 0.08s ease, background 0.2s ease;
+}
+.gravity-btn:hover {
+  transform: translateX(-50%) translateY(-2px) scale(1.03);
+}
+.gravity-btn:active {
+  transform: translateX(-50%) translateY(4px);
+  box-shadow: 0 3px 0 #3d1aa0, 0 6px 14px rgba(80, 40, 200, 0.4);
+}
+.gravity-btn[data-on="true"] {
+  background: linear-gradient(180deg, #ff9f43 0%, #f06f1c 100%);
+  border-color: #fff2e2;
+  box-shadow: 0 8px 0 #a24803, 0 14px 26px rgba(210, 110, 20, 0.4);
+}

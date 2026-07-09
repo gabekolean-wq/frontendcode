@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Northstar Studio",
-  description: "Premium digital experiences for modern brands and ambitious launches.",
+  title: "Gabe | Personal Website",
+  description: "A simple personal website for Gabe.",
 };
 
 export default function RootLayout({

@@ -1,0 +1,4 @@
+{
+  "nextjs.projectRoot": "${workspaceFolder}/my-app",
+  "nextjs.rootDir": "${workspaceFolder}/my-app"
+}
